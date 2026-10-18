@@ -1,8 +1,8 @@
 <h1>Appointment booked</h1>
 
-<p>Thank you, {{ $appointment->name }}. A confirmation was sent to {{ $appointment->email }}.</p>
+<p>Thank you, {{ $name }}. A confirmation was sent to {{ $email }}.</p>
 
 <ul>
-    <li>Date: {{ $appointment->date->format('d/m/Y H:i') }}</li>
-    <li>Status: {{ $appointment->status->label() }}</li>
+    <li>Date: {{ $date }}</li>
+    <li>Status: {{ $status }}</li>
 </ul>

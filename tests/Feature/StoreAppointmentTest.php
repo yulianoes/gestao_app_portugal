@@ -2,9 +2,9 @@
 
 namespace Tests\Feature;
 
-use App\app\Domains\Appointments\Enuns\StatusAppointment;
-use App\app\Domains\Appointments\Mail\AppointmentConfirmed;
-use App\app\Domains\Appointments\Models\Appointment;
+use App\Domains\Appointments\Enums\StatusAppointment;
+use App\Domains\Appointments\Mail\AppointmentConfirmed;
+use App\Domains\Appointments\Models\Appointment;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Mail;
 use Tests\TestCase;
